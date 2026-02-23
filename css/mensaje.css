@@ -1,0 +1,59 @@
+.errorr {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    padding: 10px 0;
+    border-radius: 0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.agregado {
+    background-color: #009900;
+    position: absolute;
+    top: 0;
+    padding: 10px 0;
+    border-radius: 0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.error_agregado {
+    background-color: #E74F4F;
+    position: absolute;
+    top: 0;
+    padding: 10px 0;
+    border-radius: 0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.error_agregado1 {
+    background-color: #E74F4F;
+    position: absolute;
+    top: 0;
+    padding: 10px 0;
+    border-radius: 0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.error_agregado2 {
+    background-color: #E74F4F;
+    position: absolute;
+    top: 0;
+    padding: 10px 0;
+    border-radius: 0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
