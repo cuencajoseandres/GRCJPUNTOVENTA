@@ -99,91 +99,90 @@ $destacados = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
 
-    .product-card{
-  border-radius:14px;
-  transition:.25s;
-  border:none;
-}
+    .product-card {
+      border-radius: 14px;
+      transition: .25s;
+      border: none;
+    }
 
-.product-card:hover{
-  transform:translateY(-6px);
-  box-shadow:0 12px 28px rgba(0,0,0,.15);
-}
+    .product-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, .15);
+    }
 
-.product-img-wrapper{
-  height:180px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:#f8f9fc;
-  padding:10px;
-}
+    .product-img-wrapper {
+      height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f8f9fc;
+      padding: 10px;
+    }
 
-.product-img-wrapper img{
-  max-height:100%;
-  max-width:100%;
-  object-fit:contain;
-}
+    .product-img-wrapper img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+    }
 
-.product-title{
-  font-size:14px;
-  min-height:40px;
-}
+    .product-title {
+      font-size: 14px;
+      min-height: 40px;
+    }
 
-.price{
-  font-weight:700;
-  font-size:18px;
-  color:#4e73df; /* azul sistema */
-}
+    .price {
+      font-weight: 700;
+      font-size: 18px;
+      color: #4e73df;
+      /* azul sistema */
+    }
 
 
 
 
-/* ============================= */
-/* HERO TECNOLÓGICO */
-/* ============================= */
-.hero-tech{
-  position:relative;
-  min-height:520px;
+    /* ============================= */
+    /* HERO TECNOLÓGICO */
+    /* ============================= */
+    .hero-tech {
+      position: relative;
+      min-height: 520px;
 
-  /* imagen tech */
-  background:url('img/imgtecno.webp') center/cover no-repeat;
+      /* imagen tech */
+      background: url('img/imgtecno.webp') center/cover no-repeat;
 
-  display:flex;
-  align-items:center;
-}
+      display: flex;
+      align-items: center;
+    }
 
-/* capa oscura */
-.hero-overlay{
-  width:100%;
-  padding:120px 0;
-  background:linear-gradient(
-      rgba(10,20,40,.85),
-      rgba(10,20,40,.85)
-  );
-}
+    /* capa oscura */
+    .hero-overlay {
+      width: 100%;
+      padding: 120px 0;
+      background: linear-gradient(rgba(10, 20, 40, .85),
+          rgba(10, 20, 40, .85));
+    }
 
-/* títulos */
-.hero-tech h1{
-  color:#4e73df;
-  text-shadow:0 3px 10px rgba(0,0,0,.6);
-}
+    /* títulos */
+    .hero-tech h1 {
+      color: #4e73df;
+      text-shadow: 0 3px 10px rgba(0, 0, 0, .6);
+    }
 
-.hero-tech p{
-  max-width:800px;
-  margin:auto;
-  opacity:.95;
-}
+    .hero-tech p {
+      max-width: 800px;
+      margin: auto;
+      opacity: .95;
+    }
 
-/* botones */
-.hero-tech .btn-primary{
-  background:#4e73df;
-  border:none;
-}
+    /* botones */
+    .hero-tech .btn-primary {
+      background: #4e73df;
+      border: none;
+    }
 
-.hero-tech .btn-primary:hover{
-  background:#2a5298;
-}
+    .hero-tech .btn-primary:hover {
+      background: #2a5298;
+    }
   </style>
 </head>
 
@@ -192,89 +191,86 @@ $destacados = $stmt->fetchAll(PDO::FETCH_ASSOC);
   <?php include('include/header.php'); ?>
 
   <!-- SECCIÓN HERO PRINCIPAL -->
-<section class="hero-tech">
-  <div class="hero-overlay">
-    <div class="container text-center text-white">
+  <section class="hero-tech">
+    <div class="hero-overlay">
+      <div class="container text-center text-white">
 
-      <h1 class="display-4 font-weight-bold mb-3">
-        Tecnología, Servicio y Soluciones en un solo lugar
-      </h1>
+        <h1 class="display-4 font-weight-bold mb-3">
+          Tecnología, Servicio y Soluciones en un solo lugar
+        </h1>
 
-      <p class="lead mb-4">
-        En <strong>GR/CJ Insumos</strong> ofrecemos venta mayorista y minorista de insumos informáticos,
-        servicio técnico especializado en computadoras y celulares iPhone y otras marcas),
-        y desarrollo de sistemas a medida para negocios.
-      </p>
+        <p class="lead mb-4">
+          En <strong>GR/CJ Insumos</strong> ofrecemos venta mayorista y minorista de insumos informáticos,
+          servicio técnico especializado en computadoras y celulares iPhone y otras marcas),
+          y desarrollo de sistemas a medida para negocios.
+        </p>
 
-      <a href="tienda.php" class="btn btn-primary btn-lg mx-2">
-        <i class="fas fa-shopping-cart"></i> Ver Tienda
-      </a>
+        <a href="tienda.php" class="btn btn-primary btn-lg mx-2">
+          <i class="fas fa-shopping-cart"></i> Ver Tienda
+        </a>
 
-      <a href="in.php" class="btn btn-outline-light btn-lg mx-2">
-        <i class="fas fa-laptop-code"></i> Ver Sistemas
-      </a>
-<a href="in.php" class="btn btn-outline-light btn-lg mx-2">
-        <i class="fas fa-laptop-code"></i> Ver Sistemas
-      </a>
+        <a href="in.php" class="btn btn-outline-light btn-lg mx-2">
+          <i class="fas fa-laptop-code"></i> Ver Sistemas
+        </a>
+      
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- SECCIÓN PRODUCTOS DESTACADOS -->
- <section class="py-5 bg-light">
-  <div class="container">
+  <section class="py-5 bg-light">
+    <div class="container">
 
-    <h2 class="text-center mb-5 font-weight-bold text-primary">
-      ⭐ Productos Destacados
-    </h2>
+      <h2 class="text-center mb-5 font-weight-bold text-primary">
+        ⭐ Productos Destacados
+      </h2>
 
-    <div class="row">
+      <div class="row">
 
-      <?php foreach($destacados as $p): ?>
-        <div class="col-lg-3 col-md-4 col-6 mb-4">
+        <?php foreach ($destacados as $p): ?>
+          <div class="col-lg-3 col-md-4 col-6 mb-4">
 
-          <div class="card product-card h-100 shadow-sm text-center">
+            <div class="card product-card h-100 shadow-sm text-center">
 
-            <div class="product-img-wrapper">
-              <img 
-                src="<?= $p['ruta_imagen'] ?: 'uploads/productos/default.webp' ?>"
-                alt="<?= htmlspecialchars($p['nombre_product']) ?>"
-              >
-            </div>
-
-            <div class="card-body d-flex flex-column">
-
-              <h6 class="product-title">
-                <?= htmlspecialchars($p['nombre_product']) ?>
-              </h6>
-
-              <div class="price mb-3">
-                $<?= number_format($p['precio'],2) ?>
+              <div class="product-img-wrapper">
+                <img
+                  src="<?= $p['ruta_imagen'] ?: 'uploads/productos/default.webp' ?>"
+                  alt="<?= htmlspecialchars($p['nombre_product']) ?>">
               </div>
 
-              <a href="tienda.php?buscar=<?= urlencode($p['nombre_product']) ?>" 
-                 class="btn btn-primary btn-sm mt-auto">
-                Ver producto
-              </a>
+              <div class="card-body d-flex flex-column">
+
+                <h6 class="product-title">
+                  <?= htmlspecialchars($p['nombre_product']) ?>
+                </h6>
+
+                <div class="price mb-3">
+                  $<?= number_format($p['precio'], 2) ?>
+                </div>
+
+                <a href="tienda.php?buscar=<?= urlencode($p['nombre_product']) ?>"
+                  class="btn btn-primary btn-sm mt-auto">
+                  Ver producto
+                </a>
+
+              </div>
 
             </div>
 
           </div>
+        <?php endforeach; ?>
 
-        </div>
-      <?php endforeach; ?>
+      </div>
+
+      <!-- Botón catálogo -->
+      <div class="text-center mt-4">
+        <a href="tienda.php" class="btn btn-outline-primary btn-lg">
+          Ver todos los productos
+        </a>
+      </div>
 
     </div>
-
-    <!-- Botón catálogo -->
-    <div class="text-center mt-4">
-      <a href="tienda.php" class="btn btn-outline-primary btn-lg">
-        Ver todos los productos
-      </a>
-    </div>
-
-  </div>
-</section>
+  </section>
 
   <!-- SECCIÓN SISTEMAS A MEDIDA -->
   <section class="py-5">
