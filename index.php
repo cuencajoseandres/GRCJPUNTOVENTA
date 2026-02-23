@@ -213,7 +213,9 @@ $destacados = $stmt->fetchAll(PDO::FETCH_ASSOC);
       <a href="in.php" class="btn btn-outline-light btn-lg mx-2">
         <i class="fas fa-laptop-code"></i> Ver Sistemas
       </a>
-
+<a href="in.php" class="btn btn-outline-light btn-lg mx-2">
+        <i class="fas fa-laptop-code"></i> Ver Sistemas
+      </a>
     </div>
   </div>
 </section>
