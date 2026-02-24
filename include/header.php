@@ -8,10 +8,10 @@ $nombre_tipo_user = $_SESSION['usuario']['nombre_tipo_user'] ?? null;
 ?>
 
 
-<header class="header-cj">
-  <div class="container">
+<header class="header-cj sticky-top">
+  
 
-    <nav class="navbar navbar-expand-lg navbar-dark p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark p-0  container">
 
       <!-- LOGO -->
       <a class="navbar-brand mr-4" href="index.php">
@@ -90,7 +90,7 @@ $nombre_tipo_user = $_SESSION['usuario']['nombre_tipo_user'] ?? null;
 
       </div>
     </nav>
-  </div>
+  
 </header>
 
 
